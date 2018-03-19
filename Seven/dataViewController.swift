@@ -12,11 +12,19 @@ class dataViewController: UIViewController {
 
     @IBOutlet var kalapawaiImage: UIImageView!
     
+    var imagePass: String?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        if let imageName = imagePass {
+            kalapawaiImage.image = UIImage (named: imageName)
+            
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {

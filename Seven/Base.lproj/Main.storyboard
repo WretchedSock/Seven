@@ -30,6 +30,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="bar-Tx-LAq" kind="show" identifier="mySegue" id="SWc-Xy-63e"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -47,7 +50,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="116.25" y="117.25352112676056"/>
+            <point key="canvasLocation" x="-114" y="124"/>
         </scene>
         <!--Data View Controller-->
         <scene sceneID="CAR-kq-qdm">
@@ -57,8 +60,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kapoleiKalapawai" translatesAutoresizingMaskIntoConstraints="NO" id="hmS-1d-8t8">
-                                <rect key="frame" x="0.0" y="62" width="320" height="196"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hmS-1d-8t8">
+                                <rect key="frame" x="16" y="62" width="288" height="185"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -74,7 +77,4 @@
             <point key="canvasLocation" x="774.375" y="123.59154929577466"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="kapoleiKalapawai" width="1300" height="830"/>
-    </resources>
 </document>

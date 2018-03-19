@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet var tableView: UITableView!
-    var myFriendsArray = ["En Fuego", "Shiro's", "Kapolei Kalapawai"]
+    var myFriendsArray = ["Kapolei Kalapawai", "Shiro's", "En Fuego"]
     
     //Restaurant Image Data
     var restaurantImageData = [String]()
@@ -20,7 +20,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
   
-        self.tableView.dataSource = self
+        tableView.dataSource = self
+        tableView.delegate = self
         
     //Part 6
         
@@ -63,6 +64,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         tableView.deselectRow(at: indexPath as IndexPath, animated: true)
         
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "mySegue"
+        {
+            let s1 = segue.destination as! dataViewController
+            let imageIndex = tableView.indexPathForSelectedRow?.row
+            s1.imagePass = restaurantImageData[imageIndex!]
+        }
     }
     
 }
