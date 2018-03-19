@@ -14,6 +14,7 @@
 		7F51A1F22060499200A4492F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F51A1F02060499200A4492F /* LaunchScreen.storyboard */; };
 		7F51A1FD2060499200A4492F /* SevenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F51A1FC2060499200A4492F /* SevenTests.swift */; };
 		7F51A2082060499200A4492F /* SevenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F51A2072060499200A4492F /* SevenUITests.swift */; };
+		7F51A21620604C0200A4492F /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F51A21520604C0200A4492F /* Property List.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7F51A2032060499200A4492F /* SevenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F51A2072060499200A4492F /* SevenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenUITests.swift; sourceTree = "<group>"; };
 		7F51A2092060499200A4492F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F51A21520604C0200A4492F /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		7F51A1DB2060499100A4492F = {
 			isa = PBXGroup;
 			children = (
+				7F51A21520604C0200A4492F /* Property List.plist */,
 				7F51A1E62060499100A4492F /* Seven */,
 				7F51A1FB2060499200A4492F /* SevenTests */,
 				7F51A2062060499200A4492F /* SevenUITests */,
@@ -234,6 +237,7 @@
 			files = (
 				7F51A1F22060499200A4492F /* LaunchScreen.storyboard in Resources */,
 				7F51A1EF2060499200A4492F /* Assets.xcassets in Resources */,
+				7F51A21620604C0200A4492F /* Property List.plist in Resources */,
 				7F51A1ED2060499200A4492F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
