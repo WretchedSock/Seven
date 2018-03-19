@@ -49,5 +49,32 @@
             </objects>
             <point key="canvasLocation" x="116.25" y="117.25352112676056"/>
         </scene>
+        <!--Data View Controller-->
+        <scene sceneID="CAR-kq-qdm">
+            <objects>
+                <viewController id="bar-Tx-LAq" customClass="dataViewController" customModule="Seven" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ez7-Sv-eGE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kapoleiKalapawai" translatesAutoresizingMaskIntoConstraints="NO" id="hmS-1d-8t8">
+                                <rect key="frame" x="0.0" y="62" width="320" height="196"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="PdJ-Z8-fzB"/>
+                    </view>
+                    <connections>
+                        <outlet property="kalapawaiImage" destination="hmS-1d-8t8" id="cgN-xs-qp0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u5g-S3-BeQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="774.375" y="123.59154929577466"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="kapoleiKalapawai" width="1300" height="830"/>
+    </resources>
 </document>
