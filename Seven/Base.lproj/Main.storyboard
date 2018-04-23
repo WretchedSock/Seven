@@ -71,7 +71,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="CE9-2e-2wY"/>
                     <connections>
-                        <outlet property="mapView" destination="VJD-Ix-8O4" id="5K3-TO-AZB"/>
+                        <outlet property="mapView" destination="VJD-Ix-8O4" id="TbY-X3-DD5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Q4-HS-LiC" userLabel="First Responder" sceneMemberID="firstResponder"/>

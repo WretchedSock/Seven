@@ -24,7 +24,7 @@ class Restaurant: NSObject, MKAnnotation {
     }
     
     var subtitle: String? {
-        return restaurantType
+        return restaurantTitle
     }
     
 }
