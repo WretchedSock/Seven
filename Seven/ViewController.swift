@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet var tableView: UITableView!
-    var myFriendsArray = ["Kapolei Kalapawai", "En Fuego", "Sushi Bay", "Koa Pancake House", "Juliez", "Chili's"]
+    var myFriendsArray = ["Kapolei Kalapawai", "En Fuego", "Sushi Bay", "Koa Pancake House", "Julie'z", "Chili's"]
     
     //Restaurant Image Data
     var restaurantImageData = [String]()
