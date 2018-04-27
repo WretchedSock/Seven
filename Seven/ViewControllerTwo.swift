@@ -26,6 +26,10 @@ class ViewControllerTwo: UIViewController {
         
         let restaurantOne = Restaurant(title: "Kalapawai", type: "American", coordinate: CLLocationCoordinate2D(latitude: 21.346470, longitude: -158.080098))
         mapView.addAnnotation(restaurantOne)
+        let restaurantTwo = RestaurantTwo(title: "En Fuego", type: "Hawaiian", coordinate: CLLocationCoordinate2D(latitude: 21.337831, longitude: -158.080440))
+        mapView.addAnnotation(restaurantTwo)
+        let restaurantThree = RestaurantThree(title: "Sushi Bay", type: "Japanese", coordinate: CLLocationCoordinate2D(latitude: 21.339798, longitude: -158.078218))
+        mapView.addAnnotation(restaurantThree)
         
         
     }

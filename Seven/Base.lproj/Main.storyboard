@@ -118,13 +118,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u5g-S3-BeQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1371" y="124"/>
+            <point key="canvasLocation" x="1461" y="-62"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yLe-Ko-Yaq">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zre-J9-Wvp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" id="FSh-nq-Zlc"/>
+                    <tabBarItem key="tabBarItem" title="" image="restaurant" id="FSh-nq-Zlc"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FS5-gf-b01">
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>
@@ -143,7 +143,7 @@
         <scene sceneID="z1f-fe-XZl">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XOR-Tp-oEL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="qeR-8u-hNs"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" image="map_marker" id="qeR-8u-hNs"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="P1f-nb-OgS">
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>
@@ -159,4 +159,8 @@
             <point key="canvasLocation" x="-114.375" y="823.94366197183103"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="map_marker" width="30" height="30"/>
+        <image name="restaurant" width="30" height="30"/>
+    </resources>
 </document>
