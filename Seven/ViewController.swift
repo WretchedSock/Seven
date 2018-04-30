@@ -15,6 +15,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     //Restaurant Image Data
     var restaurantImageData = [String]()
+    var restaurantTextData = [String]()
+    var restaurantTitleData = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +33,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let dict = NSDictionary(contentsOfFile: path!)
     
         restaurantImageData = dict!.object(forKey: "restaurantImages") as! [String]
-        
+        restaurantTextData = dict!.object(forKey:"restaurantTexts") as! [String]
+        restaurantTitleData = dict!.object(forKey: "restaurantTitles") as! [String]
     
     
     }
@@ -41,6 +44,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         // Dispose of any resources that can be recreated.
     }
 
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "My Favorite Restaurants"
+    }
 
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1;
@@ -67,12 +73,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
     }
     
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "mySegue"
         {
             let s1 = segue.destination as! dataViewController
             let imageIndex = tableView.indexPathForSelectedRow?.row
             s1.imagePass = restaurantImageData[imageIndex!]
+            s1.textPass = restaurantTextData[imageIndex!]
+            s1.titlePass = restaurantTitleData[imageIndex!]
         }
     }
     

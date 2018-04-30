@@ -10,9 +10,12 @@ import UIKit
 
 class dataViewController: UIViewController {
 
+    @IBOutlet var textView: UITextView!
     @IBOutlet var kalapawaiImage: UIImageView!
     
     var imagePass: String?
+    var textPass: String?
+    var titlePass: String?
     
     
     override func viewDidLoad() {
@@ -20,9 +23,19 @@ class dataViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
+       self.view.backgroundColor = UIColor.cyan
+        
         if let imageName = imagePass {
             kalapawaiImage.image = UIImage (named: imageName)
             
+        }
+        
+        if let description = textPass {
+            textView.text = description
+        }
+        
+        if let title = titlePass {
+            self.title = title
         }
         
     }

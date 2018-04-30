@@ -108,17 +108,26 @@
                                 <rect key="frame" x="16" y="62" width="288" height="185"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7W9-4r-7x9">
+                                <rect key="frame" x="40" y="286" width="246" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="PdJ-Z8-fzB"/>
                     </view>
                     <connections>
                         <outlet property="kalapawaiImage" destination="hmS-1d-8t8" id="cgN-xs-qp0"/>
+                        <outlet property="textView" destination="7W9-4r-7x9" id="BkV-cz-e6d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u5g-S3-BeQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1461" y="-62"/>
+            <point key="canvasLocation" x="1460.625" y="-62.323943661971832"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yLe-Ko-Yaq">
@@ -139,11 +148,11 @@
             </objects>
             <point key="canvasLocation" x="-114.375" y="123.59154929577466"/>
         </scene>
-        <!--Item 2-->
+        <!--Navigation Controller-->
         <scene sceneID="z1f-fe-XZl">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XOR-Tp-oEL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" image="map_marker" id="qeR-8u-hNs"/>
+                    <tabBarItem key="tabBarItem" title="" image="map_marker" id="qeR-8u-hNs"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="P1f-nb-OgS">
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>

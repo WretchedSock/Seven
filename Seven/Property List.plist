@@ -2,6 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>restaurantTitles</key>
+	<array>
+		<string>Kalapawai</string>
+		<string>En Fuego</string>
+		<string>Sushi Bay</string>
+		<string>Koa Pancake House</string>
+		<string>Julie&apos;Z</string>
+		<string>Chili&apos;s</string>
+	</array>
+	<key>restaurantTexts</key>
+	<array>
+		<string>A very together cafe combining a nice building facade, kind of a mix of plantation island chic, with a busy eclectic interior split between the coffee/drink/cash counter and the food/ordering/pick-up counter and open eating area at the rear.</string>
+		<string>Similar to L&amp;L, this local eatery provides a great selection of food geared for the wallet and super tasty! Gotta try the garlic fries!</string>
+		<string>Conveyor belt sushi just like Genki Sushi, just much cheaper, which is a major plus for broke college kids!</string>
+		<string>My top favorite breakfast diner, with large servings of delicious foods for a reasonable price.</string>
+		<string>Local eatery with a buffet! Nuff said.</string>
+		<string>It&apos;s a Chili&apos;s, and one with superior customer service compared to the other Chili&apos;s located nearby.</string>
+	</array>
 	<key>restaurantImages</key>
 	<array>
 		<string>kapoleiKalapawai</string>

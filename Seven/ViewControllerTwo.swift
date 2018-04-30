@@ -13,8 +13,8 @@ import CoreLocation
 class ViewControllerTwo: UIViewController {
 
     @IBOutlet var mapView: MKMapView!
-    let initialLocation = CLLocation(latitude: 21.361888 , longitude: -158.055725)
-    let regionRadius: CLLocationDistance = 1000
+    let initialLocation = CLLocation(latitude: 21.342931, longitude: -158.080488)
+    let regionRadius: CLLocationDistance = 600
     
     
     override func viewDidLoad() {
@@ -26,15 +26,15 @@ class ViewControllerTwo: UIViewController {
         
         let restaurantOne = Restaurant(title: "Kalapawai", type: "American", coordinate: CLLocationCoordinate2D(latitude: 21.346470, longitude: -158.080098))
         mapView.addAnnotation(restaurantOne)
-        let restaurantTwo = RestaurantTwo(title: "En Fuego", type: "Local Hawaiian", coordinate: CLLocationCoordinate2D(latitude: 21.337831, longitude: -158.080440))
+        let restaurantTwo = Restaurant(title: "En Fuego", type: "Local Hawaiian", coordinate: CLLocationCoordinate2D(latitude: 21.337831, longitude: -158.080440))
         mapView.addAnnotation(restaurantTwo)
-        let restaurantThree = RestaurantThree(title: "Sushi Bay", type: "Japanese", coordinate: CLLocationCoordinate2D(latitude: 21.339798, longitude: -158.078218))
+        let restaurantThree = Restaurant(title: "Sushi Bay", type: "Japanese", coordinate: CLLocationCoordinate2D(latitude: 21.339798, longitude: -158.078218))
         mapView.addAnnotation(restaurantThree)
-        let restaurantFour = RestaurantFour(title: "Koa Pancake House", type: "Local Hawaiian", coordinate: CLLocationCoordinate2D(latitude: 21.338076, longitude: -158.080730))
+        let restaurantFour = Restaurant(title: "Koa Pancake House", type: "Local Hawaiian", coordinate: CLLocationCoordinate2D(latitude: 21.338076, longitude: -158.080730))
         mapView.addAnnotation(restaurantFour)
-        let restaurantFive = RestaurantFive(title: "Julie'z", type: "Local Hawaiian", coordinate: CLLocationCoordinate2D(latitude: 21.337695, longitude: -158.080419))
+        let restaurantFive = Restaurant(title: "Julie'z", type: "Local Hawaiian", coordinate: CLLocationCoordinate2D(latitude: 21.337695, longitude: -158.080419))
         mapView.addAnnotation(restaurantFive)
-        let restaurantSix = RestaurantSix(title: "Chili's", type: "American", coordinate: CLLocationCoordinate2D(latitude: 21.340204, longitude: -158.076493))
+        let restaurantSix = Restaurant(title: "Chili's", type: "American", coordinate: CLLocationCoordinate2D(latitude: 21.340204, longitude: -158.076493))
         mapView.addAnnotation(restaurantSix)
         
         
